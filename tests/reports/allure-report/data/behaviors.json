@@ -1,0 +1,61 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Data mapper visibility",
+    "children" : [ {
+      "name" : "Check for visibility of data mapper panel.",
+      "uid" : "8f0bba6a1060c8ea",
+      "parentUid" : "a65b3498fa9414f6ea0fb57f144ed462",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596264562559,
+        "stop" : 1596264571466,
+        "duration" : 8907
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check for visibility of Demographic menu item",
+      "uid" : "43ea673d6d7ad9cf",
+      "parentUid" : "a65b3498fa9414f6ea0fb57f144ed462",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596264571467,
+        "stop" : 1596264581957,
+        "duration" : 10490
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check for visibility of Youth Population sub-item under Age item",
+      "uid" : "373b4b177f00b58a",
+      "parentUid" : "a65b3498fa9414f6ea0fb57f144ed462",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596264581958,
+        "stop" : 1596264592806,
+        "duration" : 10848
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check for visibility of Youths and Non youths under Youth population",
+      "uid" : "60ece9e70af49518",
+      "parentUid" : "a65b3498fa9414f6ea0fb57f144ed462",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596264592808,
+        "stop" : 1596264603621,
+        "duration" : 10813
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a65b3498fa9414f6ea0fb57f144ed462"
+  } ]
+}

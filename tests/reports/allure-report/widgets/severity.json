@@ -1,0 +1,41 @@
+[ {
+  "uid" : "8f0bba6a1060c8ea",
+  "name" : "Check for visibility of data mapper panel.",
+  "time" : {
+    "start" : 1596264562559,
+    "stop" : 1596264571466,
+    "duration" : 8907
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60ece9e70af49518",
+  "name" : "Check for visibility of Youths and Non youths under Youth population",
+  "time" : {
+    "start" : 1596264592808,
+    "stop" : 1596264603621,
+    "duration" : 10813
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "373b4b177f00b58a",
+  "name" : "Check for visibility of Youth Population sub-item under Age item",
+  "time" : {
+    "start" : 1596264581958,
+    "stop" : 1596264592806,
+    "duration" : 10848
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43ea673d6d7ad9cf",
+  "name" : "Check for visibility of Demographic menu item",
+  "time" : {
+    "start" : 1596264571467,
+    "stop" : 1596264581957,
+    "duration" : 10490
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
