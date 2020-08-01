@@ -12,7 +12,7 @@ def before_all(context):
     context.driver = webdriver.Chrome(executable_path = chrome_dir, options = option)
 
 
-# Run after every scenario of the feature
+# Run before every scenario of the feature
 def before_scenario(context, sceanrio):
     context.common = Common(context.driver)
 
