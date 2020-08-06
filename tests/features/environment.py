@@ -1,7 +1,7 @@
 from behave import fixture
 from selenium import webdriver
 import os
-from pages.common import Common
+from tests.pages.common import Common
 
 
 # Run Before the Feature testing execution
