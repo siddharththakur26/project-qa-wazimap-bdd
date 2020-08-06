@@ -21,7 +21,7 @@ class Common:
 
     # Find the web element using xpath
     def find_element_by_xpath(self, xpath):
-        return WebDriverWait(self.driver, 5).until(expected_conditions.visibility_of_element_located((By.XPATH, xpath)))
+        return WebDriverWait(self.driver, 15).until(expected_conditions.visibility_of_element_located((By.XPATH, xpath)))
 
     # Close the web driver
     def browser_close(self):
