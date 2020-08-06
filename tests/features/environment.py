@@ -19,5 +19,7 @@ def before_scenario(context, sceanrio):
 
 # Run after all scenarios are tested
 def after_all(context):
+    # close browsers
     context.common.browser_close()
+
 
