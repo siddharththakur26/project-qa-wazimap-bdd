@@ -2,10 +2,11 @@ os: linux
 language: python
 python:
   - "3.7"
-git: fetch
-branches:
-  only:
-  - testfeature
+git: 
+  - fetch origin
+  - rebase origin/master
+  - checkout testfeature
+
 addons:
   chrome: stable
 cache: pip
