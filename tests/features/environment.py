@@ -1,4 +1,5 @@
 from behave import fixture
+import platform
 from selenium import webdriver
 import os
 from pages.common import Common
@@ -9,7 +10,11 @@ def before_all(context):
     context.option = webdriver.ChromeOptions()
     context.option.add_argument(" — incognito")
     context.option.add_argument("--headless")
-    context.chrome_dir = '' + os.getcwd() + '/pages/chromedriver'
+    os_type = platform.system()
+    if os_type == 'Darwin':
+        context.chrome_dir = '' + os.getcwd() + '/pages/chromedrivermac'
+    elif os_type == 'Linux':
+        context.chrome_dir = '' + os.getcwd() + '/pages/chromedriverlinux'
 
 
 # Run before every scenario of the feature
